@@ -1,7 +1,11 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import OrderBook from "./components/OrderBook/OrderBook.vue";
+</script>
 
 <template>
-  <div id="app"></div>
+  <div id="app">
+    <OrderBook />
+  </div>
 </template>
 
 <style>
